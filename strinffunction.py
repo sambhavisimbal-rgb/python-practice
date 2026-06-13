@@ -13,5 +13,16 @@ a="harry"
 # i need to perform string operations 
 print(a.upper())
 print(a.lower())
+
 # string functins returns a new string instead of changing the original
+#  rstrip function
+b="!!!harry!!!!!!"
+print(b.rstrip("!"))
+# removes only traiing ! mark and not leading
+# replace function is used to replace anything from the strip
+print(b.replace("harry","sambhavi"))
+# split() fuction converts a string into a list from and splits a string into 
+# parts 
+c="harry!!!! blah blah blah"
+print(c.split(" "))
 
