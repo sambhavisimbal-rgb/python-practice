@@ -25,4 +25,28 @@ print(b.replace("harry","sambhavi"))
 # parts 
 c="harry!!!! blah blah blah"
 print(c.split(" "))
-
+print(c.capitalize())
+# capitaise() is used to only turn the first letter of the string into uppercase
+# and rest other are converted to lowercase
+print(c.center(40))
+print(c.center(60))
+# count() counts how many times a paricular charachter or sequence of character is 
+# occuring in tht string
+print(c.count("blah"))
+print(c.count("b"))
+#  endswith() checks wheter a given string ends with a given charachter or not.
+#  returns true if yes false if no
+print(c.endswith("blah"))
+print(c.endswith("bl"))
+#  we can even also check for a value in between the string by providing start and
+# end index positioon
+print(c.endswith("!!!",0,8))
+# find() searches for the first occurence of the given value and returns the
+# index where it is present. -1 if not present
+print(c.find("bl"))
+# isalnum() used to check if string carries any special character other
+# than a-z A-Z and 0-9
+# isalpha() checks only alphabets and true if only alphabets are present
+#  isspace()- true if spaces available
+#  isprintable()- returns if only printabe characters are present
+#  swapcase() changes uppercase to lowercase and vice versa
